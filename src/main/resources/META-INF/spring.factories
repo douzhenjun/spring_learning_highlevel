@@ -1,0 +1,12 @@
+com.tuoheng.demo41.Demo41_1$MyImportSelector=\
+com.tuoheng.demo41.Demo41_01.AutoConfiguration1,\
+com.tuoheng.demo41.Demo41_01.AutoConfiguration2
+
+com.itheima.a41.A41_2$MyImportSelector=\
+com.itheima.a41.A41_2.AutoConfiguration1,\
+com.itheima.a41.A41_2.AutoConfiguration2
+
+
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.itheima.a41.A41_2.AutoConfiguration1,\
+#com.itheima.a41.A41_2.AutoConfiguration2
