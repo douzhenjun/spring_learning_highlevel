@@ -28,12 +28,12 @@ public class MyConfig2 implements InitializingBean, ApplicationContextAware {
         log.debug("注入 ApplicationContext");
     }
 
-    @Bean //  beanFactory 后处理器
-    public BeanFactoryPostProcessor processor2() {
-        return beanFactory -> {
-            log.debug("执行 processor2");
-        };
-    }
+//    @Bean //  beanFactory 后处理器
+//    public BeanFactoryPostProcessor processor2() {
+//        return beanFactory -> {
+//            log.debug("执行 processor2");
+//        };
+//    }
 
     /**
      * 测试下面两个方法能否注入到beanFactory中(答案是不能)

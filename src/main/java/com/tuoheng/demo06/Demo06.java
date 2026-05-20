@@ -20,7 +20,7 @@ public class Demo06 {
         //向容器中注入名称为myBean的MyBean对象
         context.registerBean("myBean", MyBean.class);
 //        context.registerBean("myConfig1", MyConfig1.class);//注入MyConfig1对象,注解方法未执行,理由是没有注入Bean对象后置处理器
-        context.registerBean("myConfig2", MyConfig2.class);
+//        context.registerBean("myConfig2", MyConfig2.class);
         context.registerBean(AutowiredAnnotationBeanPostProcessor.class);
         context.registerBean(CommonAnnotationBeanPostProcessor.class);
         context.registerBean(ConfigurationClassPostProcessor.class);

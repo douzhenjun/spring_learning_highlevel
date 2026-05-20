@@ -19,19 +19,23 @@ public class Demo08_02 {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Demo08_02.class);
 
         E e = context.getBean(E.class);
+        System.out.println("=============F1==============");
         log.debug("{}", e.getF1().getClass());
         log.debug("{}", e.getF1());
         log.debug("{}", e.getF1());
         log.debug("{}", e.getF1());
 
+        System.out.println("=============F2==============");
         log.debug("{}", e.getF2().getClass());
         log.debug("{}", e.getF2());
         log.debug("{}", e.getF2());
         log.debug("{}", e.getF2());
 
+        System.out.println("=============F3==============");
         log.debug("{}", e.getF3());
         log.debug("{}", e.getF3());
 
+        System.out.println("=============F4==============");
         log.debug("{}", e.getF4());
         log.debug("{}", e.getF4());
 
